@@ -13,7 +13,12 @@ token *getnext(char *arr) {
 	static int i = 0, reset = 0;
 	int num;
 	if(reset == 1) {
-		token *t = (token *)malloc(sizeof(token));
+		i = 0;
+		currstate=SPC;
+		reset = 0;
+	}
+	token *t = (token *)malloc(sizeof(token));
+
 	while(1) {
 		switch(arr[i]) {
 			case '0': case '1': case '2': case '3':
