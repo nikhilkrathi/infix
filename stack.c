@@ -14,4 +14,8 @@ int full(stack *s) {
 }
 /* It is mandatory to call init() on a stack before calling push, pop or any other function on the stack 
  */
+void init(stack *s) {
+	s->i = 0;
+} 
+ 
 
