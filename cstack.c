@@ -19,3 +19,6 @@ int cfull(cstack *s) {
 /* It is mandatory to call init() on a cstack before calling push, pop or any other function on the cstack 
  */
 
+void cinit(cstack *s) {
+	s->i=0;
+}
