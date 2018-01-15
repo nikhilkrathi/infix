@@ -24,9 +24,8 @@ int precedence (char op) {
 		return 2;
 	if(op == '+' || op == '-')
 		return 1;
-/*	if(op == '@')	
+	if(op == '@')	
 		return 0;
-*/
 }
 
 char ctop(cstack *cs) {
