@@ -5,7 +5,6 @@ void push(stack *s, int num) {
 }
 /* the caller should check that the stack is not empty before calling pop() 
  */
- 
 
 int empty(stack *s) {
 	return s->i == 0;
