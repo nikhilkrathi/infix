@@ -179,8 +179,8 @@ int main() {
 		if(ans == INT_MIN) {
 			fprintf(stderr, "Error in expression\n");
 		}  
-/*		else
+		else
 			fprintf(stdout, "%d\n", ans);
-*/	}
+	}
 	return 0;
 }
